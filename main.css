@@ -1,0 +1,32 @@
+#head {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15em;
+        text-align: center;
+        text-decoration-color: aquamarine;
+}
+
+#list 
+{
+    list-style-type: disc; 
+    list-style-position: outside
+
+}
+#intro  a
+{
+    color: blue;
+    text-align: right;
+}
+
+
+#intro > a
+{
+     font-size: 10em;
+}
+
+#guideline a 
+{
+     color: tomato;
+     text-align: center;
+}
+
+body > * { margin-left: 10px; } 
