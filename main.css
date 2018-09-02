@@ -8,12 +8,14 @@
 #list 
 {
     list-style-type: disc; 
-    list-style-position: outside
+    list-style-position: outside;
+    background-color: beige;
+    
 
 }
 #intro  a
 {
-    color: blue;
+    color: rgb(0, 255, 0);
     text-align: right;
 }
 
@@ -30,3 +32,8 @@
 }
 
 body > * { margin-left: 10px; } 
+
+#forest > .leaf.fruit
+{
+    font-size: 5em;
+}
