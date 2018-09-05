@@ -27,3 +27,15 @@ table th
 {
     height: 70%;
 }
+
+table { border-spacing: 25px 50px; border-collapse: separate; }
+table, td, th {border-spacing: 25px; }
+
+table { border-collapse: collapse; }
+table, th, td { padding: 15px; border-bottom: 1px solid black; }
+
+table.eg1 tr:nth-child(even) { background-color: #ccff99; }
+
+table.eg2 tr:nth-child(odd) { background-color: #ccff99; }
+
+table.eg3 tr:nth-child(3n) { background-color: #ccff99; }
