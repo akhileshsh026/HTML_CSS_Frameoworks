@@ -1,0 +1,12 @@
+table caption
+{
+    text-decoration-color: aquamarine;
+    font-size: 2em;
+    text-decoration-line: underline;
+}
+
+table th
+{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-style: italic;
+}
