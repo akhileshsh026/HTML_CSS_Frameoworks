@@ -15,4 +15,15 @@ table th
     border-width: 2px;
     border-color: blue;
     border-style: groove;
+    border-collapse: collapse;
+}
+#tbl1
+{
+    border: 3px double red;
+    width: 100%;
+    text-align: center;
+}
+#tbl2
+{
+    height: 70%;
 }
