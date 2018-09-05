@@ -12,7 +12,7 @@
     <table id="tbl1" border="1">
         <caption>Basic Table  </caption>
         <tr>
-            <th colspan="2">Serial No</th>
+            <th>Serial No</th>
             <th>Name</th>
             <th>Mob no</th>
             <th>Address</th>
@@ -46,5 +46,94 @@
             <td>Mandla</td>
         </tr>
     </table>
+    <hr>
+    <table id="tbl2" border="1">
+                    <caption> Table With Colspan  </caption>
+                    <tr>
+                        <th colspan="2">Serial No</th>
+                        <th>Name</th>
+                        <th>Mob no</th>
+                        <th>Address</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>11</td>
+                        <td>Akhilesh Kumar Sahu</td>
+                        <td>7869643112</td>
+                        <td>Mandla</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>12</td>
+                        <td>Akhilesh Kumar Sahu</td>
+                        <td>7869643112</td>
+                        <td>Mandla</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>13</td>
+                        <td>Akhilesh Kumar Sahu</td>
+                        <td>7869643112</td>
+                        <td>Mandla</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>14</td>
+                        <td>Akhilesh Kumar Sahu</td>
+                        <td>7869643112</td>
+                        <td>Mandla</td>
+                    </tr>
+    </table>
+    <hr>
+    <table id="tbl3" border="1">
+        <caption>Table with rowspan</caption>
+        <tr>
+            <th colspan="2">Patients</th>         
+        </tr>
+        <tr>
+            <td>Alexa</td>
+            <td>12</td>
+            <th rowspan="3">Not Covered by you</th>
+        </tr>
+        <tr>
+                <td>Akhilesh</td>
+                <td>23</td>
+        </tr>
+        <tr>
+                <td>Saurabh</td>
+                <td>22</td>
+        </tr>
+        <tr>
+                <td>Allwin</td>
+                <td>26</td>
+                <th rowspan="3">Coveredby you</th>
+        </tr>
+        <tr>
+                <td>Shubham</td>
+                <td>27</td>
+        </tr>
+        <tr>
+                <td>Ashok</td>
+                <td>23</td>
+        </tr>
+    </table>
+     <hr>
+    <table id="tbl4" border=1>
+        <caption>Headers in tables</caption>
+            <tr>
+              <th id="patient-name">Name</th>
+              <th id="patient-age">Age</th>
+            </tr>  
+            <tr>
+              <td headers="patient-name">Alexa</td>
+              <td headers="patient-age">23</td>
+            </tr>
+            <tr>
+              <td headers="patient-name">James</td>
+              <td headers="patient-age">35</td>
+            </tr> 
+          </table>
+          </body>
+          </html>
 </body>
 </html>
