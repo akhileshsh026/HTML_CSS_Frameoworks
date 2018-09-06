@@ -9,11 +9,21 @@
       table
       {
           border-collapse: collapse;
+          width: 100%;
       }
       tr td 
       {
           padding: 10px;
       }
+      th
+       { 
+           background-color: navajowhite;
+        }
+        tr
+        {
+           background-color: antiquewhite;
+        }
+    
     </style>
 </head>
 <body>
@@ -28,12 +38,12 @@
         <tr>
             <td>Src</td>
             <td>	Used to specify the URL of the image</td>
-            <td>src=“images/test.png"</td>
+            <td rowspan="2">src=“images/test.png"</td>
         </tr>
         <tr>
-                <td>Alt</td>
-                <td>Used to specify replacement text for the image</td>
-                <td>alt=“Test image for HTML5 course”</td>
+                <td colspan="2" style="text-align: center;">Alt</td>
+        
+               
             </tr>
     </table>
 
